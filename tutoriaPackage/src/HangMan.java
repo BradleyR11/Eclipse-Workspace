@@ -9,7 +9,7 @@ Scanner scStr = new Scanner( System.in );
 System.out.println("Guess one letter:");
 String letter = scStr.nextLine();
 	if (letter.equals("b")){
-		
+		word[0] = ("b");
 }
 	else {
 		System.out.print("Wrong!!");}
